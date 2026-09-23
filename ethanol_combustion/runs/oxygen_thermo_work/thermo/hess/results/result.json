@@ -1,0 +1,184 @@
+{
+  "values": {
+    "qm_energy": {
+      "value": -150.256757805953,
+      "unit": "Hartree",
+      "__type__": "Value"
+    },
+    "meanfield_energy": {
+      "value": -150.25675780595256,
+      "unit": "Hartree",
+      "__type__": "Value"
+    },
+    "electronic_energy": {
+      "value": -178.14447423270795,
+      "unit": "Hartree",
+      "__type__": "Value"
+    },
+    "nuclear_repulsion_energy": {
+      "value": 27.88770504001414,
+      "unit": "Hartree",
+      "__type__": "Value"
+    },
+    "s2_expectation": {
+      "value": 2.00664,
+      "unit": null,
+      "__type__": "Value"
+    },
+    "n_imaginary_modes": {
+      "value": 0,
+      "unit": "count",
+      "__type__": "Value"
+    },
+    "zpe_correction": {
+      "value": 0.003771825160463007,
+      "unit": "Hartree",
+      "__type__": "Value"
+    },
+    "thermal_correction": {
+      "value": 0.0023630108578071313,
+      "unit": "Hartree",
+      "__type__": "Value"
+    },
+    "pv_correction": {
+      "value": 0.0009442090422453475,
+      "unit": "Hartree",
+      "__type__": "Value"
+    },
+    "ts_correction": {
+      "value": -0.02394086271311835,
+      "unit": "Hartree",
+      "__type__": "Value"
+    },
+    "entropy": {
+      "value": 8.029804700025183e-05,
+      "unit": "Hartree/K",
+      "__type__": "Value"
+    },
+    "entropy_translational": {
+      "value": 5.7881621279454935e-05,
+      "unit": "Hartree/K",
+      "__type__": "Value"
+    },
+    "entropy_rotational": {
+      "value": 1.8927686004430562e-05,
+      "unit": "Hartree/K",
+      "__type__": "Value"
+    },
+    "entropy_vibrational": {
+      "value": 3.4887397163663293e-06,
+      "unit": "Hartree/K",
+      "__type__": "Value"
+    },
+    "enthalpy": {
+      "value": -150.24967876089204,
+      "unit": "Hartree",
+      "__type__": "Value"
+    },
+    "gibbs_free_energy": {
+      "value": -150.27361962360516,
+      "unit": "Hartree",
+      "__type__": "Value"
+    }
+  },
+  "files": {
+    "dipole_moment": {
+      "path": "results/dipole_moment.npy",
+      "format": "npy",
+      "unit": "e*Bohr",
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "mulliken_charges": {
+      "path": "results/mulliken_charges.npy",
+      "format": "npy",
+      "unit": "e",
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "loewdin_charges": {
+      "path": "results/loewdin_charges.npy",
+      "format": "npy",
+      "unit": "e",
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "mayer_bond_orders": {
+      "path": "results/mayer_bond_orders.npy",
+      "format": "npy",
+      "unit": null,
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "orbital_energies": {
+      "path": "results/orbital_energies.npy",
+      "format": "npy",
+      "unit": "Hartree",
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "orbital_occupations": {
+      "path": "results/orbital_occupations.npy",
+      "format": "npy",
+      "unit": null,
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "spin_populations": {
+      "path": "results/spin_populations.npy",
+      "format": "npy",
+      "unit": null,
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "hessian": {
+      "path": "results/hessian.npy",
+      "format": "npy",
+      "unit": "Hartree/Bohr^2",
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "frequencies": {
+      "path": "results/frequencies.npy",
+      "format": "npy",
+      "unit": "cm^-1",
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "normal_modes": {
+      "path": "results/normal_modes.npy",
+      "format": "npy",
+      "unit": null,
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "ir_intensities": {
+      "path": "results/ir_intensities.npy",
+      "format": "npy",
+      "unit": "km/mol",
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "mo_coefficients": {
+      "path": "results/mo_coefficients.gbw",
+      "format": "gbw",
+      "unit": null,
+      "spec": {
+        "program": "orca",
+        "method": "B3LYP",
+        "basis": "6-31G(d)"
+      },
+      "__type__": "ResultFile"
+    },
+    "geometry_qm": {
+      "path": "results/geometry_qm.xyz",
+      "format": "xyz",
+      "unit": null,
+      "spec": {},
+      "__type__": "ResultFile"
+    }
+  },
+  "info": {},
+  "version": "v1",
+  "__type__": "BaseResult"
+}

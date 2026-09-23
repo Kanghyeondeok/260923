@@ -1,0 +1,172 @@
+{
+  "values": {
+    "qm_energy": {
+      "value": -188.49497127364,
+      "unit": "Hartree",
+      "__type__": "Value"
+    },
+    "meanfield_energy": {
+      "value": -188.49497127364006,
+      "unit": "Hartree",
+      "__type__": "Value"
+    },
+    "electronic_energy": {
+      "value": -246.3967218308313,
+      "unit": "Hartree",
+      "__type__": "Value"
+    },
+    "nuclear_repulsion_energy": {
+      "value": 57.90174517269102,
+      "unit": "Hartree",
+      "__type__": "Value"
+    },
+    "n_imaginary_modes": {
+      "value": 0,
+      "unit": "count",
+      "__type__": "Value"
+    },
+    "zpe_correction": {
+      "value": 0.01160018051703984,
+      "unit": "Hartree",
+      "__type__": "Value"
+    },
+    "thermal_correction": {
+      "value": 0.002642458265456311,
+      "unit": "Hartree",
+      "__type__": "Value"
+    },
+    "pv_correction": {
+      "value": 0.0009442090422453475,
+      "unit": "Hartree",
+      "__type__": "Value"
+    },
+    "ts_correction": {
+      "value": -0.024959826071494717,
+      "unit": "Hartree",
+      "__type__": "Value"
+    },
+    "entropy": {
+      "value": 8.371566685054818e-05,
+      "unit": "Hartree/K",
+      "__type__": "Value"
+    },
+    "entropy_translational": {
+      "value": 5.939560786806189e-05,
+      "unit": "Hartree/K",
+      "__type__": "Value"
+    },
+    "entropy_rotational": {
+      "value": 2.308083286811009e-05,
+      "unit": "Hartree/K",
+      "__type__": "Value"
+    },
+    "entropy_vibrational": {
+      "value": 1.2392261143761982e-06,
+      "unit": "Hartree/K",
+      "__type__": "Value"
+    },
+    "enthalpy": {
+      "value": -188.47978442581532,
+      "unit": "Hartree",
+      "__type__": "Value"
+    },
+    "gibbs_free_energy": {
+      "value": -188.50474425188682,
+      "unit": "Hartree",
+      "__type__": "Value"
+    }
+  },
+  "files": {
+    "dipole_moment": {
+      "path": "results/dipole_moment.npy",
+      "format": "npy",
+      "unit": "e*Bohr",
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "mulliken_charges": {
+      "path": "results/mulliken_charges.npy",
+      "format": "npy",
+      "unit": "e",
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "loewdin_charges": {
+      "path": "results/loewdin_charges.npy",
+      "format": "npy",
+      "unit": "e",
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "mayer_bond_orders": {
+      "path": "results/mayer_bond_orders.npy",
+      "format": "npy",
+      "unit": null,
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "orbital_energies": {
+      "path": "results/orbital_energies.npy",
+      "format": "npy",
+      "unit": "Hartree",
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "orbital_occupations": {
+      "path": "results/orbital_occupations.npy",
+      "format": "npy",
+      "unit": null,
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "hessian": {
+      "path": "results/hessian.npy",
+      "format": "npy",
+      "unit": "Hartree/Bohr^2",
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "frequencies": {
+      "path": "results/frequencies.npy",
+      "format": "npy",
+      "unit": "cm^-1",
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "normal_modes": {
+      "path": "results/normal_modes.npy",
+      "format": "npy",
+      "unit": null,
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "ir_intensities": {
+      "path": "results/ir_intensities.npy",
+      "format": "npy",
+      "unit": "km/mol",
+      "spec": {},
+      "__type__": "ResultFile"
+    },
+    "mo_coefficients": {
+      "path": "results/mo_coefficients.gbw",
+      "format": "gbw",
+      "unit": null,
+      "spec": {
+        "program": "orca",
+        "method": "B3LYP",
+        "basis": "6-31G(d)"
+      },
+      "__type__": "ResultFile"
+    },
+    "geometry_qm": {
+      "path": "results/geometry_qm.xyz",
+      "format": "xyz",
+      "unit": null,
+      "spec": {},
+      "__type__": "ResultFile"
+    }
+  },
+  "info": {},
+  "version": "v1",
+  "__type__": "BaseResult"
+}

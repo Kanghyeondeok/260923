@@ -1,0 +1,3 @@
+! RKS B3LYP 6-31G(d) Printbasis PrintMOs
+! Freq
+* xyzfile 0 1 system.xyz

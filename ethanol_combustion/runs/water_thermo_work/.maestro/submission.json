@@ -1,0 +1,24 @@
+{
+  "strategy": "one-job-per-task",
+  "tasks": [
+    {
+      "node": "thermo/opt",
+      "job_id": "14124",
+      "attempts": 1,
+      "attempts_this_run": 0,
+      "identity": "cada61009e70b6f1ecff4a171244fc5ee8de9dba0d3475d3c1ee753fcdaa14a0",
+      "submitted_at": "2026-09-23T16:43:52+09:00",
+      "__type__": "TaskSubmission"
+    },
+    {
+      "node": "thermo/hess",
+      "job_id": "14140",
+      "attempts": 1,
+      "attempts_this_run": 0,
+      "identity": "33c25c519973e420da32a40a86f6a8ca06eaa66da8a94715823189aff3c934d6",
+      "submitted_at": "2026-09-23T17:05:53+09:00",
+      "__type__": "TaskSubmission"
+    }
+  ],
+  "__type__": "SubmissionRecord"
+}
